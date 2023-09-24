@@ -3,6 +3,6 @@ p{
   text-transform: uppercase;
 }
 img{
-  border: 111px solid;
+  border-image-width:1px solid;
   border-color:black;
 }
