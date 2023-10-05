@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapped {
+    height: 750px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#header {
+    background-color: red;
+    height: 75px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 22px;
+}
+
+#leftbox{
+    background-color: black;
+    width: 90px;
+    height: 900px;
+    float: left;
+}
+
+#middlebody {
+    background-color: green;
+    height: 600px;
+}
+
+#rightbox{
+    background-color: black;
+    width: 90px;
+    height: 900px;
+    float: right;
+}
+
+#footer {
+    background-color: blue;
+    height: 75px;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+}
