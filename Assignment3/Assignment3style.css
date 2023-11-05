@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
+
+#header {
+    background-color: #72A0C1;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#header p {
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    left: 350px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+#img1 img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+#locationsearch {
+    background-color: #c6d9e6;
+    width: 250px;
+    height: 800px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+#locationsearch input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+#locationsearch p {
+    width: 80%;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+#img2 img {
+   height: 200px;
+   width: 200px;
+   position: absolute;
+   top: 480px;
+   left: 25px;
+}
+
+#maincontent{
+    background-color: #f0f5f8;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+#content1 {
+    background-color: #367588;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+}
+
+#content1 p {
+    position: absolute;
+    bottom: 20px;
+    color: ghostwhite;
+}
+
+
+#content2 {
+    background-color: #78b2ab;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    text-align: center;
+}
+
+#content2 p {
+    position: absolute;
+    bottom: 20px;
+    color: black;
+}
+
+#content3 {
+    background-color: #97B5AB;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    text-align: center;
+}
+
+#content3 p {
+    position: absolute;
+    bottom: 20px;
+    color: black;
+}
+
+#content4 {
+    background-color: #25708E;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    text-align: center;
+}
+
+#content4 p {
+    position: absolute;
+    bottom: 20px;
+    color: ghostwhite;
+}
+#content5 {
+    background-color: #a1a1ce;
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    top: 75px;
+    left: 650px;
+    text-align: center;
+}
+
+#content5 p {
+    position: absolute;
+    top: 200px;
+    color: black;
+}
+
+#signin {
+    background-color: #c6d9e6;
+    width: 250px;
+    height: 800px;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+}
+
+#signin h4{
+    position: absolute;
+    top: 75px;
+    right: 75px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+#email input {
+    width: 80%;
+    height: 35px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+#password input {
+    width: 80%;
+    height: 35px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+#postjob h4 {
+    position: absolute;
+    top: 300px;
+    right: 30px;
+}
+
+#postjob input {
+    width: 90%;
+    height: 300px;
+    border: 3px solid black;
+    outline: none;
+    position: absolute;
+    top: 350px;
+    left: 10px;
+}
+
+#footer {
+    background-color: #7474b0;
+    width: 100%;
+    height: 100px;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top: 850px;
+    left: 0px;
+}
+
+p {
+    font-family: serif;
+    font-size: 16px;
+    color: black;
+}
+
+h3 {
+    font-family: serif;
+    font-size: 30px;
+    Position: absolute;
+    text-decoration: underline;
+    top: 70px;
+    left: 10px;
+}
