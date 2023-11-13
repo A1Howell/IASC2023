@@ -1,17 +1,22 @@
-// Creates an instance of date when the page loads
-var start = new Date();
+// Variable to store the start time
+var startTime;
 
+// Function to initialize the start time when the page loads
+window.onload = function () {
+  startTime = new Date();
+}
+
+// Function to be called when the button is pressed
 function stopTime() {
-  // Makes an instance of date when the button is pressed
-  var stop = new Date();
+  // Create an instance of date when the button is pressed
+  var stopTime = new Date();
 
-  // Get the time in millieseconds since the page was loaded
-  var start = new Date();
-  var millisecondsPassed = stop.getTime() - start.getTime();
+  // Get the time in milliseconds since the page was loaded
+  var millisecondsPassed = stopTime.getTime() - startTime.getTime();
 
-  // Calculating the number of millisecondsPassed
-  var secondsPassed = Math.floor(millisecondsPassed / 600);
+  // Calculate the number of seconds passed
+  var secondsPassed = Math.floor(millisecondsPassed / 1000);
 
-  //Display number of seconds in a pop up
-  alert("You have been on the page for:" + secondsPassed + "seconds");
+  // Display the number of seconds in a pop-up
+  alert("Seconds passed since the page loaded: " + secondsPassed + " seconds");
 }
