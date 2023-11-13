@@ -11,4 +11,4 @@ var currentYear = new Date().getFullYear();
 var birthYear = currentYear - age;
 
 // Display the birth year on the screen
-document.getElementById("result-container").innerHTML = "Your birth year is: " + birthYear;
+console.log("Your birth year is: " + birthYear);
