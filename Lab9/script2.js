@@ -12,6 +12,3 @@ var birthYear = currentYear - age;
 
 // Display the birth year on the screen
 console.log("Your birth year is: " + birthYear);
-
-// Display the birth year using an alert 
-document.write("Your birth year is: " + birthYear);
