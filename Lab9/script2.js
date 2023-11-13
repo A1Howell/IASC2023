@@ -4,6 +4,8 @@ var ageInput = prompt("Please enter your age:");
 // Convert the entered age to a number
 var age = parseInt(ageInput);
 
+let resultContainer = document.getElementById("resultcontainer");
+
 // Get the current year
 var currentYear = new Date().getFullYear();
 
@@ -11,4 +13,4 @@ var currentYear = new Date().getFullYear();
 var birthYear = currentYear - age;
 
 // Display the birth year on the screen
-console.log("Your birth year is: " + birthYear);
+resultContainer.innerHTML = "Your birth year is: " + birthYear;
